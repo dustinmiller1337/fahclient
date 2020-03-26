@@ -32,8 +32,8 @@ COPY --chown=folding:folding entrypoint.sh /opt/fahclient
 USER folding
 WORKDIR /opt/fahclient
 
-ENV USER "Anonumous"
-ENV TEAM "0"
+ENV USER "Packet.com"
+ENV TEAM "236565"
 ENV ENABLE_GPU "false"
 ENV ENABLE_SMP "true"
 ENV POWER "full"
